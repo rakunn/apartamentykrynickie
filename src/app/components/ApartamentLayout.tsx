@@ -15,7 +15,7 @@ export const ApartamentLayout = ({
 }: ApartamentLayoutProps) => {
   return (
     <div className="px-8 py-12">
-      <h2 className="text-2xl mb-8 text-gray-700">{title}</h2>
+      <h2 className="text-2xl mb-8 text-primary">{title}</h2>
       <div className="flex flex-col gap-12">
         <div className="flex gap-12">
           <div className="flex flex-col gap-4 flex-[4_0_0]">
