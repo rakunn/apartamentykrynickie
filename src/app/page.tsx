@@ -34,8 +34,7 @@ export default function Home() {
       <ApartamentLayout
         title="Apartament dwupokojowy Magnolia 41 m dla 4-5 osób przy ulicy Cichej ( Centrum Krynicy)"
         descriptionLines={[
-          "Drodzy Goście. Witamy serdecznie. Zapraszamy do naszych całorocznych i nowocześnie urządzonych Apartamentów w samym Centrum Krynicy Zdrój.\n" +
-            "Stąd tylko kilka minut do Pijalni Głównej czy stoku narciarskiego.",
+          "Drodzy Goście. Witamy serdecznie. Zapraszamy do naszych całorocznych i nowocześnie urządzonych Apartamentów w samym Centrum Krynicy Zdrój. Stąd tylko kilka minut do Pijalni Głównej czy stoku narciarskiego.",
           "Apartament dwupokojowy Magnolia wyposażony jest we wszystko co potrzeba aby miło spędzić czas w pięknym Uzdrowisku.  W apartamencie znajdziecie Państwo funkcjonalną łazienkę z prysznicem, w pełni wyposażony aneks kuchenny, dwa telewizory oraz dostęp do  internetu. Dodatkowo znajduje się tam rozkładany fotel dla piątej osoby, łóżeczko dla dziecka oraz biureczko do pracy zdalnej.",
           "Naszym gościom zapewniamy bezpłatne miejsce parkingowe, a w budynku dostępna jest również winda\n",
         ]}
@@ -59,8 +58,7 @@ export default function Home() {
       <ApartamentLayout
         title="Apartament jednopokojowy Storczyk 28 m dla 2-4 osób przy ulicy Cichej 18/5B"
         descriptionLines={[
-          "Drodzy Goście. Witamy serdecznie. Zapraszamy do naszych całorocznych i nowocześnie urządzonych Apartamentów w samym Centrum Krynicy Zdrój. Stąd tylko kilka minut do Pijalni Głównej czy stoku narciarskiego." +
-            "Stąd tylko kilka minut do Pijalni Głównej czy stoku narciarskiego.",
+          "Drodzy Goście. Witamy serdecznie. Zapraszamy do naszych całorocznych i nowocześnie urządzonych Apartamentów w samym Centrum Krynicy Zdrój. Stąd tylko kilka minut do Pijalni Głównej czy stoku narciarskiego.",
           "Apartament  typu studio Storczyk wyposażony jest we wszystko co potrzeba aby miło spędzić czas w pięknym Uzdrowisku.  W tym jednopokojowym apartamencie znajdziecie Państwo funkcjonalną łazienkę z prysznicem, w pełni wyposażony aneks kuchenny, telewizor oraz dostęp do internetu. Dodatkowo znajduje się tam rozkładana sofa dla kolejnych 2 osób oraz łóżeczko dla dziecka.",
           "Naszym gościom zapewniamy bezpłatne miejsce parkingowe, a w budynku dostępna jest również winda",
         ]}
