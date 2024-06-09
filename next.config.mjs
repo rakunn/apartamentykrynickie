@@ -1,4 +1,14 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    images: {
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: 'www.lawendakrynicka.pl',
+                port: '',
+            },
+        ],
+    },
+};
 
 export default nextConfig;

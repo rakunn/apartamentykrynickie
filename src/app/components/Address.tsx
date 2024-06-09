@@ -24,7 +24,7 @@ export const Address = ({
         <div className="w-6">
           <FontAwesomeIcon icon={faEnvelope} width={20} />
         </div>
-        <p>{email}</p>
+        <a href={`mailto:${email}`}>{email}</a>
       </div>
       <div className="flex gap-2 items-start">
         <div className="w-6">

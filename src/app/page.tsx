@@ -2,6 +2,9 @@ import React from "react";
 import { ApartamentLayout } from "@/app/components/ApartamentLayout";
 import { MainFigure } from "@/app/components/MainFigure";
 import { ThreeHeroImages } from "@/app/components/ThreeHeroImages";
+import { About } from "@/app/components/About";
+import { Address } from "@/app/components/Address";
+import { FooterAddress } from "@/app/components/FooterAddress";
 
 export default function Home() {
   return (
@@ -13,7 +16,7 @@ export default function Home() {
         <button className="p-4 text-white text-lg">Kontakt</button>
       </nav>
 
-      <main className="max-w-[1024px] mx-auto">
+      <main className="max-w-[1024px] mx-auto pt-6">
         <div className="flex gap-8 justify-between px-8">
           <MainFigure
             imgSrc="/magnolia/1.jpg"
@@ -85,7 +88,12 @@ export default function Home() {
             { original: "/storczyk/15.jpg", thumbnail: "/storczyk/15.jpg" },
           ]}
         />
+        <About />
       </main>
+
+      <footer className="bg-primary text-white">
+        <FooterAddress />
+      </footer>
     </div>
   );
 }
