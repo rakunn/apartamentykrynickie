@@ -15,7 +15,7 @@ export const ThreeHeroImages = () => {
         </div>
       </div>
       <h1 className="absolute text-nowrap p-4 text-3xl bg-white text-primary w-fit bottom-4 left-1/2 -translate-x-1/2 rounded-lg shadow-xl">
-        Prywatne apartamenty przy ulicy Cichej w Krynicy Zdrój
+        Apartamenty w centrum Krynicy Zdrój
       </h1>
     </div>
   );

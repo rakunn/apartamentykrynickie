@@ -1,14 +1,16 @@
 import { MainFigure } from "@/app/components/MainFigure";
 import React from "react";
 import Image from "next/image";
+import { LineDecoration } from "@/app/components/LineDecoration";
 
 export const About = () => {
   return (
     <section className="px-8 py-12 text-gray-700" id="about">
-      <h2 className="text-2xl mb-8 text-primary">
+      <h2 className="text-2xl mb-2 text-primary">
         O nas. Zapraszamy naszych gości do Krynicy Zdrój oraz do Krynicy
         Morskiej
       </h2>
+      <LineDecoration className="mb-6" />
       <div className="flex gap-12 mb-4">
         <div className="flex flex-col gap-4 flex-[3_0_0] text-justify ">
           <p>
