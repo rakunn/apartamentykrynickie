@@ -8,7 +8,7 @@ export const Address = ({
   addressLines = ["Krynica Zdrój", "ul. Cicha 14/ 8B1"],
 }) => {
   return (
-    <section className="text-primary font-light p-4 shadow-lg w-fit flex flex-col gap-6 rounded-lg">
+    <section className="text-primary font-light p-4 shadow-lg w-full md:w-fit flex flex-col gap-6 rounded-lg my-4 md:my-0">
       <h3 className="mb-2 font-medium">Kontakt</h3>
       <div className="flex gap-2 items-start">
         <div className="w-6">

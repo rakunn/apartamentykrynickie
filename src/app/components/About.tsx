@@ -5,13 +5,13 @@ import { LineDecoration } from "@/app/components/LineDecoration";
 
 export const About = () => {
   return (
-    <section className="px-8 py-12 text-gray-700" id="about">
-      <h2 className="text-2xl mb-2 text-primary">
+    <section className="px-8 py-2 md:py-12 text-gray-700" id="about">
+      <h2 className="md:text-2xl mb-2 text-primary">
         O nas. Zapraszamy naszych gości do Krynicy Zdrój oraz do Krynicy
         Morskiej
       </h2>
       <LineDecoration className="mb-6" />
-      <div className="flex gap-12 mb-4">
+      <div className="md:flex gap-12 mb-4">
         <div className="flex flex-col gap-4 flex-[3_0_0] text-justify ">
           <p>
             W Krynicy Morskiej posiadamy w ofercie apartament w kompleksie
@@ -32,7 +32,7 @@ export const About = () => {
             zabaw dla dzieci, siłownia oraz Kids Klub.
           </p>
         </div>
-        <div className="flex-[2_0_0]">
+        <div className="w-full aspect-video flex-[2_0_0] my-12 md:my-0">
           <a
             className="block w-full h-full relative"
             href="https://www.lawendakrynicka.pl"
@@ -41,13 +41,14 @@ export const About = () => {
               src="https://www.lawendakrynicka.pl/exterior2.aeed3751.jpg"
               alt="kliknij aby przejść do Lawendy"
               fill
-              className="object-contain"
+              className="object-cover md:object-contain"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
           </a>
         </div>
       </div>
-      <div className="flex gap-12">
-        <div className="flex flex-[4_0_0] gap-4">
+      <div className="md:flex gap-12">
+        <div className="md:flex flex-[4_0_0] gap-4">
           <MainFigure
             imgSrc="/magnolia/1.jpg"
             topLabel={<p className="text-sm">Magnolia</p>}
@@ -69,7 +70,7 @@ export const About = () => {
             }
           />
         </div>
-        <div className="flex flex-col gap-4 flex-[4_0_0] text-justify">
+        <div className="flex flex-col gap-4 flex-[4_0_0] text-justify mb-4">
           <p>
             W Krynicy Zdrój posiadamy w ofercie apartamenty przy ulicy Cichej.
             Krynica to dynamicznie rozwijające się uzdrowisku z licznymi

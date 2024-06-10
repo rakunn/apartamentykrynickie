@@ -4,24 +4,10 @@ import { MainFigure } from "@/app/components/MainFigure";
 import { ThreeHeroImages } from "@/app/components/ThreeHeroImages";
 import { About } from "@/app/components/About";
 import { FooterAddress } from "@/app/components/FooterAddress";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faElevator, faWifi } from "@fortawesome/free-solid-svg-icons";
-import { DryerIcon } from "@/icons/dryerIcon";
-import { RefrigeratorIcon } from "@/icons/refrigeratorIcon";
-import { faShower } from "@fortawesome/free-solid-svg-icons/faShower";
-import { TowelIcon } from "@/icons/towelIcon";
-import { KitchenIcon } from "@/icons/kitchenIcon";
-import { BalconyIcon } from "@/icons/balconyIcon";
-import { IronIcon } from "@/icons/ironIcon";
-import { KettleIcon } from "@/icons/KettleIcon";
-import { faSquareParking } from "@fortawesome/free-solid-svg-icons/faSquareParking";
-import { faPeopleRoof } from "@fortawesome/free-solid-svg-icons/faPeopleRoof";
-import { DishwasherIcon } from "@/icons/dishwasherIcon";
-import { faTv } from "@fortawesome/free-solid-svg-icons/faTv";
-import { faDog } from "@fortawesome/free-solid-svg-icons/faDog";
-import { WashingMachineIcon } from "@/icons/washingMachineIcon";
 import magnolia from "@/app/magnoliaConfig";
 import storczyk from "@/app/storczykConfig";
+import { scrollTo } from "@/app/helpers/scrollTo";
+import { NavigationButton } from "@/app/components/NavigationButton";
 
 export default function Home() {
   return (
@@ -29,12 +15,12 @@ export default function Home() {
       <ThreeHeroImages />
 
       <nav className="flex gap-12 justify-center bg-primary">
-        <button className="p-4 text-white text-lg">O nas</button>
-        <button className="p-4 text-white text-lg">Kontakt</button>
+        <NavigationButton htmlElementId="about" label="O nas" />
+        <NavigationButton htmlElementId="contact" label="Kontakt" />
       </nav>
 
       <main className="max-w-[1024px] mx-auto pt-6">
-        <div className="flex gap-8 justify-between px-8">
+        <div className="md:flex gap-8 justify-between px-8">
           <MainFigure
             imgSrc="/magnolia/2.jpg"
             topLabel={<p>Magnolia</p>}
@@ -81,7 +67,7 @@ export default function Home() {
         <About />
       </main>
 
-      <footer className="bg-primary text-white">
+      <footer className="bg-primary text-white" id="contact">
         <FooterAddress />
       </footer>
     </div>

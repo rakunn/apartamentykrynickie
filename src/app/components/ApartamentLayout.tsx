@@ -19,11 +19,11 @@ export const ApartamentLayout = ({
   addressLines,
 }: ApartamentLayoutProps) => {
   return (
-    <div className="px-8 py-12">
-      <h2 className="text-2xl text-primary">{title}</h2>
+    <div className="px-8 py-2 md:py-12">
+      <h2 className="md:text-2xl text-primary">{title}</h2>
       <LineDecoration className="mt-2 mb-6" />
       <div className="flex flex-col gap-12">
-        <div className="flex gap-12">
+        <div className="md:flex gap-12">
           <div className="flex flex-col gap-4 flex-[4_0_0]">
             {descriptionLines.map((line, i) => (
               <p key={i} className="text-justify text-gray-700">
@@ -31,12 +31,12 @@ export const ApartamentLayout = ({
               </p>
             ))}
           </div>
-          <div className="flex-[3_0_0]">
+          <div className="flex-[3_0_0] pt-8 md:pt-0">
             <Gallery images={galleryImages} />
           </div>
         </div>
-        <div className="flex gap-12 items-stretch">
-          <div className="flex-4">
+        <div className="md:flex gap-12 items-stretch">
+          <div className="flex-4 mb-6 md:mb-0">
             <Amenities items={amenitiesItems} />
           </div>
           <div className="flex-2">

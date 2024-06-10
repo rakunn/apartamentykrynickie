@@ -13,7 +13,7 @@ export const MainFigure = ({
   lowerLabel,
 }: MainFigureProps) => {
   return (
-    <figure className="relative w-full mt-[23px] aspect-video rounded-xl">
+    <figure className="relative w-full mt-[23px] aspect-video rounded-xl mb-12 md:mb-0">
       <Image
         src={imgSrc}
         alt="logo"
@@ -22,6 +22,7 @@ export const MainFigure = ({
         style={{
           objectFit: "cover",
         }}
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
       />
       {topLabel ? (
         <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 min-w-fit text-center rounded-md text-lg border border-gray-200 font-medium bg-white p-2 shadow-xl px-4 text-gray-700">
