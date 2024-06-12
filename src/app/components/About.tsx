@@ -36,6 +36,8 @@ export const About = () => {
           <a
             className="block w-full h-full cursor-pointer relative hover:scale-105 duration-500 transition-transform"
             href="https://www.lawendakrynicka.pl"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <Image
               src="https://www.lawendakrynicka.pl/exterior2.aeed3751.jpg"
