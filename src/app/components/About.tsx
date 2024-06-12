@@ -34,7 +34,7 @@ export const About = () => {
         </div>
         <div className="w-full aspect-video flex-[2_0_0] my-12 md:my-0">
           <a
-            className="block w-full h-full relative"
+            className="block w-full h-full cursor-pointer relative hover:scale-105 duration-500 transition-transform"
             href="https://www.lawendakrynicka.pl"
           >
             <Image
@@ -44,6 +44,9 @@ export const About = () => {
               className="object-cover md:object-contain"
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
+            <div className="text-[10px] absolute bottom-1 left-1/2 -translate-x-1/2 text-primary bg-white rounded-md px-2 py-1 text-center whitespace-nowrap">
+              Przeniesienie na stronę Lawendy
+            </div>
           </a>
         </div>
       </div>
@@ -58,6 +61,7 @@ export const About = () => {
                 <p className="text-sm">41m&#178;</p>
               </>
             }
+            htmlId="magnolia"
           />
           <MainFigure
             imgSrc="/storczyk/4.jpg"
@@ -68,9 +72,10 @@ export const About = () => {
                 <p className="text-sm">28m&#178;</p>
               </>
             }
+            htmlId="storczyk"
           />
         </div>
-        <div className="flex flex-col gap-4 flex-[4_0_0] text-justify mb-4">
+        <div className="flex flex-col gap-4 flex-[4_0_0] text-justify md:mt-4 mb-4 max-md:mb-0">
           <p>
             W Krynicy Zdrój posiadamy w ofercie apartamenty przy ulicy Cichej.
             Krynica to dynamicznie rozwijające się uzdrowisku z licznymi

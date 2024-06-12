@@ -30,6 +30,7 @@ export default function Home() {
                 <p>41m&#178;</p>
               </>
             }
+            htmlId="magnolia"
           />
           <MainFigure
             imgSrc="/storczyk/4.jpg"
@@ -40,9 +41,11 @@ export default function Home() {
                 <p>28m&#178;</p>
               </>
             }
+            htmlId="storczyk"
           />
         </div>
         <ApartamentLayout
+          htmlId="magnolia"
           title="Apartament dwupokojowy Magnolia 41 m dla 4-5 osób przy ulicy Cichej 14/8B1"
           descriptionLines={[
             "Drodzy Goście. Witamy serdecznie. Zapraszamy do naszych całorocznych i nowocześnie urządzonych Apartamentów w samym Centrum Krynicy Zdrój. Stąd tylko kilka minut do Pijalni Głównej czy stoku narciarskiego.",
@@ -54,6 +57,7 @@ export default function Home() {
           addressLines={["Krynica Zdrój", "ul. Cicha 14/ 8B1"]}
         />
         <ApartamentLayout
+          htmlId="storczyk"
           title="Apartament jednopokojowy Storczyk 28 m dla 2-4 osób przy ulicy Cichej 18/5B"
           descriptionLines={[
             "Drodzy Goście. Witamy serdecznie. Zapraszamy do naszych całorocznych i nowocześnie urządzonych Apartamentów w samym Centrum Krynicy Zdrój. Stąd tylko kilka minut do Pijalni Głównej czy stoku narciarskiego.",

@@ -4,6 +4,7 @@ import { Address } from "@/app/components/Address";
 import { LineDecoration } from "@/app/components/LineDecoration";
 
 interface ApartamentLayoutProps {
+  htmlId: string;
   descriptionLines: string[];
   galleryImages: { original: string; thumbnail: string }[];
   title: string;
@@ -12,6 +13,7 @@ interface ApartamentLayoutProps {
 }
 
 export const ApartamentLayout = ({
+  htmlId,
   descriptionLines,
   galleryImages,
   title,
@@ -20,7 +22,9 @@ export const ApartamentLayout = ({
 }: ApartamentLayoutProps) => {
   return (
     <div className="px-8 py-2 md:py-12">
-      <h2 className="md:text-2xl text-primary">{title}</h2>
+      <h2 id={htmlId} className="md:text-2xl text-primary">
+        {title}
+      </h2>
       <LineDecoration className="mt-2 mb-6" />
       <div className="flex flex-col gap-12">
         <div className="md:flex gap-12">
