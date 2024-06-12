@@ -50,7 +50,7 @@ export const About = () => {
       <div className="md:flex gap-12">
         <div className="md:flex flex-[4_0_0] gap-4">
           <MainFigure
-            imgSrc="/magnolia/1.jpg"
+            imgSrc="/magnolia/2.jpg"
             topLabel={<p className="text-sm">Magnolia</p>}
             lowerLabel={
               <>
@@ -60,7 +60,7 @@ export const About = () => {
             }
           />
           <MainFigure
-            imgSrc="/storczyk/1.jpg"
+            imgSrc="/storczyk/4.jpg"
             topLabel={<p className="text-sm">Storczyk</p>}
             lowerLabel={
               <>
