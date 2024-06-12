@@ -27,7 +27,7 @@ export default function Home() {
             lowerLabel={
               <>
                 <p>4-5 osób</p>
-                <p>41m2</p>
+                <p>41m&#178;</p>
               </>
             }
           />
@@ -37,7 +37,7 @@ export default function Home() {
             lowerLabel={
               <>
                 <p>2-4 osób</p>
-                <p>28m2</p>
+                <p>28m&#178;</p>
               </>
             }
           />

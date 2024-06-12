@@ -54,8 +54,8 @@ export const About = () => {
             topLabel={<p className="text-sm">Magnolia</p>}
             lowerLabel={
               <>
-                <p className="text-sm whitespace-nowrap">2-4 osób</p>
-                <p className="text-sm">28m2</p>
+                <p className="text-sm whitespace-nowrap">4-5 osób</p>
+                <p className="text-sm">41m&#178;</p>
               </>
             }
           />
@@ -65,7 +65,7 @@ export const About = () => {
             lowerLabel={
               <>
                 <p className="text-sm whitespace-nowrap">2-4 osób</p>
-                <p className="text-sm">28m2</p>
+                <p className="text-sm">28m&#178;</p>
               </>
             }
           />
