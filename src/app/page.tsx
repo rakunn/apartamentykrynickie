@@ -22,7 +22,7 @@ export default function Home() {
       <main className="max-w-[1024px] mx-auto pt-6">
         <div className="md:flex gap-8 justify-between px-8">
           <MainFigure
-            imgSrc="/magnolia/2.jpg"
+            imgSrc="/magnolia/2.webp"
             topLabel={<p>Magnolia</p>}
             lowerLabel={
               <>
@@ -33,7 +33,7 @@ export default function Home() {
             htmlId="magnolia"
           />
           <MainFigure
-            imgSrc="/storczyk/4.jpg"
+            imgSrc="/storczyk/4.webp"
             topLabel={<p>Storczyk</p>}
             lowerLabel={
               <>

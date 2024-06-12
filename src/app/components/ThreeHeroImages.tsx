@@ -6,7 +6,7 @@ export const ThreeHeroImages = () => {
       <div className="h-[33vh] flex">
         <div className="relative flex-[1_0_0]">
           <Image
-            src="/magnolia/2.jpg"
+            src="/magnolia/2.webp"
             alt=""
             fill
             className="object-cover"
@@ -15,7 +15,7 @@ export const ThreeHeroImages = () => {
         </div>
         <div className="relative flex-[1_0_0]">
           <Image
-            src="/magnolia/1.jpg"
+            src="/magnolia/1.webp"
             alt=""
             fill
             className="object-cover"
@@ -24,7 +24,7 @@ export const ThreeHeroImages = () => {
         </div>
         <div className="relative flex-[1_0_0]">
           <Image
-            src="/storczyk/6.jpg"
+            src="/storczyk/6.webp"
             alt=""
             fill
             className="object-cover"

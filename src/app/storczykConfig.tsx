@@ -17,21 +17,21 @@ import { WashingMachineIcon } from "@/icons/washingMachineIcon";
 import React from "react";
 
 const photos = [
-  { original: "/storczyk/1.jpg", thumbnail: "/storczyk/1.jpg" },
-  { original: "/storczyk/2.jpg", thumbnail: "/storczyk/2.jpg" },
-  { original: "/storczyk/3.jpg", thumbnail: "/storczyk/3.jpg" },
-  { original: "/storczyk/4.jpg", thumbnail: "/storczyk/4.jpg" },
-  { original: "/storczyk/5.jpg", thumbnail: "/storczyk/5.jpg" },
-  { original: "/storczyk/6.jpg", thumbnail: "/storczyk/6.jpg" },
-  { original: "/storczyk/7.jpg", thumbnail: "/storczyk/7.jpg" },
-  { original: "/storczyk/8.jpg", thumbnail: "/storczyk/8.jpg" },
-  { original: "/storczyk/9.jpg", thumbnail: "/storczyk/9.jpg" },
-  { original: "/storczyk/10.jpg", thumbnail: "/storczyk/10.jpg" },
-  { original: "/storczyk/11.jpg", thumbnail: "/storczyk/11.jpg" },
-  { original: "/storczyk/12.jpg", thumbnail: "/storczyk/12.jpg" },
-  { original: "/storczyk/13.jpg", thumbnail: "/storczyk/13.jpg" },
-  { original: "/storczyk/14.jpg", thumbnail: "/storczyk/14.jpg" },
-  { original: "/storczyk/15.jpg", thumbnail: "/storczyk/15.jpg" },
+  { original: "/storczyk/1.webp", thumbnail: "/storczyk/1.webp" },
+  { original: "/storczyk/2.webp", thumbnail: "/storczyk/2.webp" },
+  { original: "/storczyk/3.webp", thumbnail: "/storczyk/3.webp" },
+  { original: "/storczyk/4.webp", thumbnail: "/storczyk/4.webp" },
+  { original: "/storczyk/5.webp", thumbnail: "/storczyk/5.webp" },
+  { original: "/storczyk/6.webp", thumbnail: "/storczyk/6.webp" },
+  { original: "/storczyk/7.webp", thumbnail: "/storczyk/7.webp" },
+  { original: "/storczyk/8.webp", thumbnail: "/storczyk/8.webp" },
+  { original: "/storczyk/9.webp", thumbnail: "/storczyk/9.webp" },
+  { original: "/storczyk/10.webp", thumbnail: "/storczyk/10.webp" },
+  { original: "/storczyk/11.webp", thumbnail: "/storczyk/11.webp" },
+  { original: "/storczyk/12.webp", thumbnail: "/storczyk/12.webp" },
+  { original: "/storczyk/13.webp", thumbnail: "/storczyk/13.webp" },
+  { original: "/storczyk/14.webp", thumbnail: "/storczyk/14.webp" },
+  { original: "/storczyk/15.webp", thumbnail: "/storczyk/15.webp" },
 ];
 
 const amenities = [

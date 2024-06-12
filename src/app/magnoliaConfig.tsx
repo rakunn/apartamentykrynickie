@@ -17,20 +17,20 @@ import { WashingMachineIcon } from "@/icons/washingMachineIcon";
 import React from "react";
 
 const photos = [
-  { original: "/magnolia/1.jpg", thumbnail: "/magnolia/1.jpg" },
-  { original: "/magnolia/2.jpg", thumbnail: "/magnolia/2.jpg" },
-  { original: "/magnolia/3.jpg", thumbnail: "/magnolia/3.jpg" },
-  { original: "/magnolia/4.jpg", thumbnail: "/magnolia/4.jpg" },
-  { original: "/magnolia/5.jpg", thumbnail: "/magnolia/5.jpg" },
-  { original: "/magnolia/6.jpg", thumbnail: "/magnolia/6.jpg" },
-  { original: "/magnolia/7.jpg", thumbnail: "/magnolia/7.jpg" },
-  { original: "/magnolia/8.jpg", thumbnail: "/magnolia/8.jpg" },
-  { original: "/magnolia/9.jpg", thumbnail: "/magnolia/9.jpg" },
-  { original: "/magnolia/10.jpg", thumbnail: "/magnolia/10.jpg" },
-  { original: "/magnolia/11.jpg", thumbnail: "/magnolia/11.jpg" },
-  { original: "/magnolia/12.jpg", thumbnail: "/magnolia/12.jpg" },
-  { original: "/magnolia/13.jpg", thumbnail: "/magnolia/13.jpg" },
-  { original: "/magnolia/14.jpg", thumbnail: "/magnolia/14.jpg" },
+  { original: "/magnolia/1.webp", thumbnail: "/magnolia/1.webp" },
+  { original: "/magnolia/2.webp", thumbnail: "/magnolia/2.webp" },
+  { original: "/magnolia/3.webp", thumbnail: "/magnolia/3.webp" },
+  { original: "/magnolia/4.webp", thumbnail: "/magnolia/4.webp" },
+  { original: "/magnolia/5.webp", thumbnail: "/magnolia/5.webp" },
+  { original: "/magnolia/6.webp", thumbnail: "/magnolia/6.webp" },
+  { original: "/magnolia/7.webp", thumbnail: "/magnolia/7.webp" },
+  { original: "/magnolia/8.webp", thumbnail: "/magnolia/8.webp" },
+  { original: "/magnolia/9.webp", thumbnail: "/magnolia/9.webp" },
+  { original: "/magnolia/10.webp", thumbnail: "/magnolia/10.webp" },
+  { original: "/magnolia/11.webp", thumbnail: "/magnolia/11.webp" },
+  { original: "/magnolia/12.webp", thumbnail: "/magnolia/12.webp" },
+  { original: "/magnolia/13.webp", thumbnail: "/magnolia/13.webp" },
+  { original: "/magnolia/14.webp", thumbnail: "/magnolia/14.webp" },
 ];
 
 const amenities = [
