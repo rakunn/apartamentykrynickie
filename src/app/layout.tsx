@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="pl">
       <Head>
-        <link key="favicon" rel="icon" href="/favicon.ico" sizes="any" />
+        <link key="favicon" rel="icon" href="/icon.ico" sizes="any" />
       </Head>
       <body className={inter.className}>{children}</body>
     </html>
