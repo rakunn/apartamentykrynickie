@@ -47,7 +47,7 @@ export const About = () => {
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
             <div className="text-[10px] absolute bottom-1 left-1/2 -translate-x-1/2 text-primary bg-white rounded-md px-2 py-1 text-center whitespace-nowrap">
-              Przeniesienie na stronę Lawendy
+              Link do apartamentu w Krynicy Morskiej
             </div>
           </a>
         </div>
