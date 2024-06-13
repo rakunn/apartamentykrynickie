@@ -6,7 +6,6 @@ import { About } from "@/app/components/About";
 import { FooterAddress } from "@/app/components/FooterAddress";
 import magnolia from "@/app/magnoliaConfig";
 import storczyk from "@/app/storczykConfig";
-import { scrollTo } from "@/app/helpers/scrollTo";
 import { NavigationButton } from "@/app/components/NavigationButton";
 
 export default function Home() {

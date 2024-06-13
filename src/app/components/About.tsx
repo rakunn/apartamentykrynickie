@@ -84,7 +84,7 @@ export const About = () => {
             atrakcjami jak Góra Parkowa, Jaworzyna Krynicka czy też Pijalnia
             Główna. Apartamenty znajdują się nowym kompleksie przy ulicy Cichej.
             Do każdego apartamentu przynależy miejsce parkingowe w garażu
-            podziemny. Przygotowaliśmy nasze Apartament z myślą o dużych i
+            podziemnym. Przygotowaliśmy nasze Apartament z myślą o dużych i
             małych gościach oraz też tych, którzy muszą pracować zdalnie.
           </p>
           <p>Zapraszamy Państwa i życzymy udanego pobytu!</p>

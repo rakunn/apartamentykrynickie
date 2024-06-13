@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -8,7 +9,7 @@ export const metadata: Metadata = {
   authors: {
     name: "Piotr Buczkowski",
   },
-  title: "Apartamenty Krynickie - Zarezerwuj swój pobyt w luksusowym miejscu",
+  title: "Apartamenty w Krynicy",
   keywords:
     "Apartamenty Krynickie, wynajem apartamentów, Krynica, apartament Magnolia, apartament Storczyk, noclegi Krynica",
   description:
@@ -22,6 +23,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pl">
+      <Head>
+        <link key="favicon" rel="icon" href="/favicon.ico" sizes="any" />
+      </Head>
       <body className={inter.className}>{children}</body>
     </html>
   );
