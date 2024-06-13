@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   authors: {
     name: "Piotr Buczkowski",
   },
-  title: "Apartamenty Krynickie - Zarezerwuj już dziś",
+  title: "Apartamenty Krynickie - Zarezerwuj swój pobyt w luksusowym miejscu",
   keywords:
     "Apartamenty Krynickie, wynajem apartamentów, Krynica, apartament Magnolia, apartament Storczyk, noclegi Krynica",
   description:
