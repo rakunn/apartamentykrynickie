@@ -11,6 +11,7 @@ export const ThreeHeroImages = () => {
             fill
             className="object-cover"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            priority
           />
         </div>
         <div className="relative flex-[1_0_0]">
@@ -20,6 +21,7 @@ export const ThreeHeroImages = () => {
             fill
             className="object-cover"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            priority
           />
         </div>
         <div className="relative flex-[1_0_0]">
@@ -29,6 +31,7 @@ export const ThreeHeroImages = () => {
             fill
             className="object-cover"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            priority
           />
         </div>
       </div>
