@@ -30,6 +30,7 @@ export default function Home() {
               </>
             }
             htmlId="magnolia"
+            priority={true}
           />
           <MainFigure
             imgSrc="/storczyk/4.webp"
@@ -41,6 +42,7 @@ export default function Home() {
               </>
             }
             htmlId="storczyk"
+            priority={true}
           />
         </div>
         <ApartamentLayout

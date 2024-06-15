@@ -7,6 +7,7 @@ interface MainFigureProps {
   topLabel: string | React.ReactNode;
   lowerLabel: string | React.ReactNode;
   htmlId: string;
+  priority: boolean;
 }
 
 export const MainFigure = ({
@@ -14,6 +15,7 @@ export const MainFigure = ({
   topLabel,
   lowerLabel,
   htmlId,
+  priority = false,
 }: MainFigureProps) => {
   return (
     <ClickableScroller
@@ -30,6 +32,7 @@ export const MainFigure = ({
             objectFit: "cover",
           }}
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          priority={priority}
         />
         {topLabel ? (
           <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 min-w-fit text-center rounded-md text-lg border border-gray-200 font-medium bg-white p-2 shadow-xl px-4 text-gray-700">
