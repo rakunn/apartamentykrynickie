@@ -14,7 +14,14 @@ export const metadata: Metadata = {
     "Apartamenty Krynickie, wynajem apartamentów, Krynica, apartament Magnolia, apartament Storczyk, noclegi Krynica",
   description:
     "Apartamenty Krynickie oferują dwa komfortowe apartamenty na wynajem: dwupokojowy Apartament Magnolia (41 m², dla 4-5 osób) przy ulicy Cichej 14/8B1 oraz jednopokojowy Apartament Storczyk (28 m², dla 2-4 osób) przy ulicy Cichej 18/5B.",
-  robots: "all",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
 };
 
 export default function RootLayout({
