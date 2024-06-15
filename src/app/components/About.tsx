@@ -41,7 +41,7 @@ export const About = () => {
           >
             <Image
               src="https://www.lawendakrynicka.pl/exterior2.aeed3751.jpg"
-              alt="kliknij aby przejść do Lawendy"
+              alt="kliknij aby przejść do Lawendy."
               fill
               className="object-cover md:object-contain"
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
