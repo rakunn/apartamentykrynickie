@@ -17,20 +17,76 @@ import { WashingMachineIcon } from "@/icons/washingMachineIcon";
 import React from "react";
 
 const photos = [
-  { original: "/magnolia/1.webp", thumbnail: "/magnolia/1.webp" },
-  { original: "/magnolia/2.webp", thumbnail: "/magnolia/2.webp" },
-  { original: "/magnolia/3.webp", thumbnail: "/magnolia/3.webp" },
-  { original: "/magnolia/4.webp", thumbnail: "/magnolia/4.webp" },
-  { original: "/magnolia/5.webp", thumbnail: "/magnolia/5.webp" },
-  { original: "/magnolia/6.webp", thumbnail: "/magnolia/6.webp" },
-  { original: "/magnolia/7.webp", thumbnail: "/magnolia/7.webp" },
-  { original: "/magnolia/8.webp", thumbnail: "/magnolia/8.webp" },
-  { original: "/magnolia/9.webp", thumbnail: "/magnolia/9.webp" },
-  { original: "/magnolia/10.webp", thumbnail: "/magnolia/10.webp" },
-  { original: "/magnolia/11.webp", thumbnail: "/magnolia/11.webp" },
-  { original: "/magnolia/12.webp", thumbnail: "/magnolia/12.webp" },
-  { original: "/magnolia/13.webp", thumbnail: "/magnolia/13.webp" },
-  { original: "/magnolia/14.webp", thumbnail: "/magnolia/14.webp" },
+  {
+    original: "/magnolia/1.webp",
+    thumbnail: "/magnolia/1.webp",
+    loading: "lazy",
+  },
+  {
+    original: "/magnolia/2.webp",
+    thumbnail: "/magnolia/2.webp",
+    loading: "lazy",
+  },
+  {
+    original: "/magnolia/3.webp",
+    thumbnail: "/magnolia/3.webp",
+    loading: "lazy",
+  },
+  {
+    original: "/magnolia/4.webp",
+    thumbnail: "/magnolia/4.webp",
+    loading: "lazy",
+  },
+  {
+    original: "/magnolia/5.webp",
+    thumbnail: "/magnolia/5.webp",
+    loading: "lazy",
+  },
+  {
+    original: "/magnolia/6.webp",
+    thumbnail: "/magnolia/6.webp",
+    loading: "lazy",
+  },
+  {
+    original: "/magnolia/7.webp",
+    thumbnail: "/magnolia/7.webp",
+    loading: "lazy",
+  },
+  {
+    original: "/magnolia/8.webp",
+    thumbnail: "/magnolia/8.webp",
+    loading: "lazy",
+  },
+  {
+    original: "/magnolia/9.webp",
+    thumbnail: "/magnolia/9.webp",
+    loading: "lazy",
+  },
+  {
+    original: "/magnolia/10.webp",
+    thumbnail: "/magnolia/10.webp",
+    loading: "lazy",
+  },
+  {
+    original: "/magnolia/11.webp",
+    thumbnail: "/magnolia/11.webp",
+    loading: "lazy",
+  },
+  {
+    original: "/magnolia/12.webp",
+    thumbnail: "/magnolia/12.webp",
+    loading: "lazy",
+  },
+  {
+    original: "/magnolia/13.webp",
+    thumbnail: "/magnolia/13.webp",
+    loading: "lazy",
+  },
+  {
+    original: "/magnolia/14.webp",
+    thumbnail: "/magnolia/14.webp",
+    loading: "lazy",
+  },
 ];
 
 const amenities = [

@@ -17,21 +17,81 @@ import { WashingMachineIcon } from "@/icons/washingMachineIcon";
 import React from "react";
 
 const photos = [
-  { original: "/storczyk/1.webp", thumbnail: "/storczyk/1.webp" },
-  { original: "/storczyk/2.webp", thumbnail: "/storczyk/2.webp" },
-  { original: "/storczyk/3.webp", thumbnail: "/storczyk/3.webp" },
-  { original: "/storczyk/4.webp", thumbnail: "/storczyk/4.webp" },
-  { original: "/storczyk/5.webp", thumbnail: "/storczyk/5.webp" },
-  { original: "/storczyk/6.webp", thumbnail: "/storczyk/6.webp" },
-  { original: "/storczyk/7.webp", thumbnail: "/storczyk/7.webp" },
-  { original: "/storczyk/8.webp", thumbnail: "/storczyk/8.webp" },
-  { original: "/storczyk/9.webp", thumbnail: "/storczyk/9.webp" },
-  { original: "/storczyk/10.webp", thumbnail: "/storczyk/10.webp" },
-  { original: "/storczyk/11.webp", thumbnail: "/storczyk/11.webp" },
-  { original: "/storczyk/12.webp", thumbnail: "/storczyk/12.webp" },
-  { original: "/storczyk/13.webp", thumbnail: "/storczyk/13.webp" },
-  { original: "/storczyk/14.webp", thumbnail: "/storczyk/14.webp" },
-  { original: "/storczyk/15.webp", thumbnail: "/storczyk/15.webp" },
+  {
+    original: "/storczyk/1.webp",
+    thumbnail: "/storczyk/1.webp",
+    loading: "lazy",
+  },
+  {
+    original: "/storczyk/2.webp",
+    thumbnail: "/storczyk/2.webp",
+    loading: "lazy",
+  },
+  {
+    original: "/storczyk/3.webp",
+    thumbnail: "/storczyk/3.webp",
+    loading: "lazy",
+  },
+  {
+    original: "/storczyk/4.webp",
+    thumbnail: "/storczyk/4.webp",
+    loading: "lazy",
+  },
+  {
+    original: "/storczyk/5.webp",
+    thumbnail: "/storczyk/5.webp",
+    loading: "lazy",
+  },
+  {
+    original: "/storczyk/6.webp",
+    thumbnail: "/storczyk/6.webp",
+    loading: "lazy",
+  },
+  {
+    original: "/storczyk/7.webp",
+    thumbnail: "/storczyk/7.webp",
+    loading: "lazy",
+  },
+  {
+    original: "/storczyk/8.webp",
+    thumbnail: "/storczyk/8.webp",
+    loading: "lazy",
+  },
+  {
+    original: "/storczyk/9.webp",
+    thumbnail: "/storczyk/9.webp",
+    loading: "lazy",
+  },
+  {
+    original: "/storczyk/10.webp",
+    thumbnail: "/storczyk/10.webp",
+    loading: "lazy",
+  },
+  {
+    original: "/storczyk/11.webp",
+    thumbnail: "/storczyk/11.webp",
+    loading: "lazy",
+  },
+  {
+    original: "/storczyk/12.webp",
+    thumbnail: "/storczyk/12.webp",
+    loading: "lazy",
+  },
+  {
+    original: "/storczyk/13.webp",
+    thumbnail: "/storczyk/13.webp",
+    loading: "lazy",
+  },
+  {
+    original: "/storczyk/14.webp",
+    thumbnail: "/storczyk/14.webp",
+    loading: "lazy",
+  },
+  {
+    original: "/storczyk/15.webp",
+    thumbnail: "/storczyk/15.webp",
+    loading: "lazy",
+  },
 ];
 
 const amenities = [
