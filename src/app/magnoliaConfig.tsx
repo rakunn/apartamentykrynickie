@@ -99,7 +99,7 @@ const photos = [
     original: "/magnolia/14.webp",
     thumbnail: "/magnolia/14.webp",
     loading: "lazy",
-    originaloriginalAlt: "Zdjęcie Mangolia - 14",
+    originalAlt: "Zdjęcie Mangolia - 14",
   },
 ];
 
