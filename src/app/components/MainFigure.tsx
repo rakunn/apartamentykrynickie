@@ -7,7 +7,7 @@ interface MainFigureProps {
   topLabel: string | React.ReactNode;
   lowerLabel: string | React.ReactNode;
   htmlId: string;
-  priority: boolean;
+  priority?: boolean;
 }
 
 export const MainFigure = ({
