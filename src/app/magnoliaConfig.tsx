@@ -15,6 +15,7 @@ import { faTv } from "@fortawesome/free-solid-svg-icons/faTv";
 import { faDog } from "@fortawesome/free-solid-svg-icons/faDog";
 import { WashingMachineIcon } from "@/icons/washingMachineIcon";
 import React from "react";
+import { SnowflakeIcon } from "@/icons/snowflakeIcon";
 
 const photos = [
   {
@@ -101,6 +102,12 @@ const photos = [
     loading: "lazy",
     originalAlt: "Zdjęcie Mangolia - 14",
   },
+  {
+    original: "/magnolia/15.webp",
+    thumbnail: "/magnolia/15.webp",
+    loading: "lazy",
+    originalAlt: "Klimatyzacja w pokoju Magnolia",
+  },
 ];
 
 const amenities = [
@@ -183,6 +190,10 @@ const amenities = [
   {
     label: "Pralka",
     Icon: <WashingMachineIcon color="#e4b471" />,
+  },
+  {
+    label: "Klimatyzacja",
+    Icon: <SnowflakeIcon color="#e4b471" />,
   },
 ];
 
