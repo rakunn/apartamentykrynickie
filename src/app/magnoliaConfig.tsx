@@ -17,98 +17,111 @@ import { WashingMachineIcon } from "@/icons/washingMachineIcon";
 import React from "react";
 import { SnowflakeIcon } from "@/icons/snowflakeIcon";
 
-const photos = [
-  {
-    original: "/magnolia/1.webp",
-    thumbnail: "/magnolia/1.webp",
-    loading: "lazy",
-    originalAlt: "Zdjęcie Mangolia - 1",
-  },
-  {
-    original: "/magnolia/2.webp",
-    thumbnail: "/magnolia/2.webp",
-    loading: "lazy",
-    originalAlt: "Zdjęcie Mangolia - 2",
-  },
-  {
-    original: "/magnolia/3.webp",
-    thumbnail: "/magnolia/3.webp",
-    loading: "lazy",
-    originalAlt: "Zdjęcie Mangolia - 3",
-  },
-  {
-    original: "/magnolia/4.webp",
-    thumbnail: "/magnolia/4.webp",
-    loading: "lazy",
-    originalAlt: "Zdjęcie Mangolia - 4",
-  },
-  {
-    original: "/magnolia/5.webp",
-    thumbnail: "/magnolia/5.webp",
-    loading: "lazy",
-    originalAlt: "Zdjęcie Mangolia - 5",
-  },
-  {
-    original: "/magnolia/6.webp",
-    thumbnail: "/magnolia/6.webp",
-    loading: "lazy",
-    originalAlt: "Zdjęcie Mangolia - 6",
-  },
-  {
-    original: "/magnolia/7.webp",
-    thumbnail: "/magnolia/7.webp",
-    loading: "lazy",
-    originalAlt: "Zdjęcie Mangolia - 7",
-  },
-  {
-    original: "/magnolia/8.webp",
-    thumbnail: "/magnolia/8.webp",
-    loading: "lazy",
-    originalAlt: "Zdjęcie Mangolia - 8",
-  },
-  {
-    original: "/magnolia/9.webp",
-    thumbnail: "/magnolia/9.webp",
-    loading: "lazy",
-    originalAlt: "Zdjęcie Mangolia - 9",
-  },
-  {
-    original: "/magnolia/10.webp",
-    thumbnail: "/magnolia/10.webp",
-    loading: "lazy",
-    originalAlt: "Zdjęcie Mangolia - 10",
-  },
-  {
-    original: "/magnolia/11.webp",
-    thumbnail: "/magnolia/11.webp",
-    loading: "lazy",
-    originalAlt: "Zdjęcie Mangolia - 11",
-  },
-  {
-    original: "/magnolia/12.webp",
-    thumbnail: "/magnolia/12.webp",
-    loading: "lazy",
-    originalAlt: "Zdjęcie Mangolia - 12",
-  },
-  {
-    original: "/magnolia/13.webp",
-    thumbnail: "/magnolia/13.webp",
-    loading: "lazy",
-    originalAlt: "Zdjęcie Mangolia - 13",
-  },
-  {
-    original: "/magnolia/14.webp",
-    thumbnail: "/magnolia/14.webp",
-    loading: "lazy",
-    originalAlt: "Zdjęcie Mangolia - 14",
-  },
-  {
-    original: "/magnolia/15.webp",
-    thumbnail: "/magnolia/15.webp",
-    loading: "lazy",
-    originalAlt: "Klimatyzacja w pokoju Magnolia",
-  },
-];
+const photoDetails = [
+  [
+    "/magnolia/1.webp",
+    1400,
+    1050,
+    "Apartament Magnolia w Krynicy Zdroju - salon z aneksem kuchennym",
+  ],
+  [
+    "/magnolia/2.webp",
+    1400,
+    1050,
+    "Apartament Magnolia w Krynicy Zdroju - pokój dzienny",
+  ],
+  [
+    "/magnolia/3.webp",
+    1400,
+    1050,
+    "Apartament Magnolia w Krynicy Zdroju - część wypoczynkowa",
+  ],
+  [
+    "/magnolia/4.webp",
+    1400,
+    1050,
+    "Apartament Magnolia w Krynicy Zdroju - wyposażony aneks kuchenny",
+  ],
+  [
+    "/magnolia/5.webp",
+    1400,
+    1050,
+    "Apartament Magnolia w Krynicy Zdroju - jadalnia i kuchnia",
+  ],
+  [
+    "/magnolia/6.webp",
+    1400,
+    1050,
+    "Apartament Magnolia w Krynicy Zdroju - sypialnia",
+  ],
+  [
+    "/magnolia/7.webp",
+    1050,
+    1400,
+    "Apartament Magnolia w Krynicy Zdroju - łazienka z prysznicem",
+  ],
+  [
+    "/magnolia/8.webp",
+    1050,
+    1400,
+    "Apartament Magnolia w Krynicy Zdroju - wyposażenie łazienki",
+  ],
+  [
+    "/magnolia/9.webp",
+    1400,
+    1050,
+    "Apartament Magnolia w Krynicy Zdroju - balkon",
+  ],
+  [
+    "/magnolia/10.webp",
+    1050,
+    1400,
+    "Apartament Magnolia w Krynicy Zdroju - przedpokój",
+  ],
+  [
+    "/magnolia/11.webp",
+    1050,
+    1400,
+    "Apartament Magnolia w Krynicy Zdroju - szafa i przechowywanie",
+  ],
+  [
+    "/magnolia/12.webp",
+    1050,
+    1400,
+    "Apartament Magnolia w Krynicy Zdroju - wejście do apartamentu",
+  ],
+  [
+    "/magnolia/13.webp",
+    1050,
+    1400,
+    "Apartament Magnolia w Krynicy Zdroju - detal wyposażenia",
+  ],
+  [
+    "/magnolia/14.webp",
+    1400,
+    1050,
+    "Apartament Magnolia w Krynicy Zdroju - widok pokoju",
+  ],
+  [
+    "/magnolia/15.webp",
+    600,
+    800,
+    "Klimatyzacja w Apartamencie Magnolia w Krynicy Zdroju",
+  ],
+] as const;
+
+const photos = photoDetails.map(
+  ([original, originalWidth, originalHeight, alt]) => ({
+    original,
+    thumbnail: original,
+    loading: "lazy" as const,
+    thumbnailLoading: "lazy" as const,
+    originalWidth,
+    originalHeight,
+    originalAlt: alt,
+    thumbnailAlt: alt,
+  }),
+);
 
 const amenities = [
   {

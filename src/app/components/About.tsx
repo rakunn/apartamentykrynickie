@@ -1,6 +1,5 @@
 import { MainFigure } from "@/app/components/MainFigure";
 import React from "react";
-import Image from "next/image";
 import { LineDecoration } from "@/app/components/LineDecoration";
 
 export const About = () => {
@@ -32,30 +31,24 @@ export const About = () => {
             zabaw dla dzieci, siłownia oraz Kids Klub.
           </p>
         </div>
-        <div className="w-full aspect-video flex-[2_0_0] my-12 md:my-0">
+        <div className="w-full flex-[2_0_0] my-12 md:my-0">
           <a
-            className="block w-full h-full cursor-pointer relative hover:scale-105 duration-500 transition-transform"
+            className="flex min-h-56 w-full flex-col justify-between rounded-lg border border-primary/40 bg-primary/10 p-6 text-primary shadow-md transition-transform duration-500 hover:scale-105"
             href="https://www.lawendakrynicka.pl"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image
-              src="https://www.lawendakrynicka.pl/exterior2.aeed3751.jpg"
-              alt="kliknij aby przejść do Lawendy."
-              fill
-              className="object-cover md:object-contain"
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-            />
-            <div className="text-[10px] absolute bottom-1 left-1/2 -translate-x-1/2 text-primary bg-white rounded-md px-2 py-1 text-center whitespace-nowrap">
-              Link do apartamentu w Krynicy Morskiej
-            </div>
+            <span className="text-sm uppercase">Krynica Morska</span>
+            <span className="text-2xl font-medium">Lawenda Krynicka</span>
+            <span className="text-sm">Zobacz apartament nad morzem</span>
           </a>
         </div>
       </div>
-      <div className="md:flex gap-12">
-        <div className="md:flex flex-[4_0_0] gap-4">
+      <div className="grid gap-10 lg:grid-cols-2">
+        <div className="grid gap-6 sm:grid-cols-2">
           <MainFigure
             imgSrc="/magnolia/2.webp"
+            altText="Salon w Apartamencie Magnolia w Krynicy Zdroju"
             topLabel={<p className="text-sm">Magnolia</p>}
             lowerLabel={
               <>
@@ -67,6 +60,7 @@ export const About = () => {
           />
           <MainFigure
             imgSrc="/storczyk/4.webp"
+            altText="Pokój dzienny w Apartamencie Storczyk w Krynicy Zdroju"
             topLabel={<p className="text-sm">Storczyk</p>}
             lowerLabel={
               <>
@@ -77,7 +71,7 @@ export const About = () => {
             htmlId="storczyk"
           />
         </div>
-        <div className="flex flex-col gap-4 flex-[4_0_0] text-justify md:mt-4 mb-4 max-md:mb-0">
+        <div className="flex min-w-0 flex-col gap-4 text-justify lg:mt-4">
           <p>
             W Krynicy Zdrój posiadamy w ofercie apartamenty przy ulicy Cichej.
             Krynica to dynamicznie rozwijające się uzdrowisku z licznymi

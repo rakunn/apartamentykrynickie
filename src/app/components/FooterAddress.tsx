@@ -1,5 +1,6 @@
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { TrackedContactLink } from "@/app/components/TrackedContactLink";
 
 export const FooterAddress = ({
   telephoneNumberLines = ["+48 502 512 418", "+48 600 006 550"],
@@ -14,9 +15,14 @@ export const FooterAddress = ({
         </div>
         <div className="flex flex-col">
           {telephoneNumberLines.map((line, i) => (
-            <a href={`tel:${line}`} key={i}>
+            <TrackedContactLink
+              eventLabel={line}
+              eventType="phone"
+              href={`tel:${line.replace(/\s/g, "")}`}
+              key={i}
+            >
               {line}
-            </a>
+            </TrackedContactLink>
           ))}
         </div>
       </div>
@@ -24,7 +30,13 @@ export const FooterAddress = ({
         <div className="w-6">
           <FontAwesomeIcon icon={faEnvelope} width={20} />
         </div>
-        <a href={`mailto:${email}`}>{email}</a>
+        <TrackedContactLink
+          eventLabel={email}
+          eventType="email"
+          href={`mailto:${email}`}
+        >
+          {email}
+        </TrackedContactLink>
       </div>
     </div>
   );

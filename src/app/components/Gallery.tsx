@@ -1,6 +1,7 @@
 "use client";
 
 import ImageGallery from "react-image-gallery";
+import type { ReactImageGalleryItem } from "react-image-gallery";
 
 export const Gallery = ({
   images = [
@@ -17,11 +18,15 @@ export const Gallery = ({
       thumbnail: "https://picsum.photos/id/1019/250/150/",
     },
   ],
+}: {
+  images?: readonly ReactImageGalleryItem[];
 }) => {
   return (
     <ImageGallery
+      lazyLoad
       showThumbnails={false}
       showPlayButton={false}
+      showFullscreenButton={false}
       items={images}
     />
   );

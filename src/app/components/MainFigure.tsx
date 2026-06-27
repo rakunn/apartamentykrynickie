@@ -4,6 +4,7 @@ import { ClickableScroller } from "@/app/components/ClickableScroller";
 
 interface MainFigureProps {
   imgSrc: string;
+  altText: string;
   topLabel: string | React.ReactNode;
   lowerLabel: string | React.ReactNode;
   htmlId: string;
@@ -12,6 +13,7 @@ interface MainFigureProps {
 
 export const MainFigure = ({
   imgSrc,
+  altText,
   topLabel,
   lowerLabel,
   htmlId,
@@ -22,12 +24,12 @@ export const MainFigure = ({
       className="relative w-full mt-[23px] aspect-video rounded-xl mb-12 md:mb-0 cursor-pointer transition-transform duration-500 hover:scale-105"
       htmlId={htmlId}
     >
-      <figure className="">
+      <figure className="relative h-full w-full">
         <Image
           src={imgSrc}
-          alt="logo"
+          alt={altText}
           fill
-          className="shadow-md aspect-video rounded-lg"
+          className="aspect-video rounded-lg shadow-md"
           style={{
             objectFit: "cover",
           }}

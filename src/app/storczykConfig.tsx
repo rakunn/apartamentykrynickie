@@ -16,98 +16,111 @@ import { faDog } from "@fortawesome/free-solid-svg-icons/faDog";
 import { WashingMachineIcon } from "@/icons/washingMachineIcon";
 import React from "react";
 
-const photos = [
-  {
-    original: "/storczyk/1.webp",
-    thumbnail: "/storczyk/1.webp",
-    loading: "lazy",
-    originalAlt: "Zdjęcie apartamentu Storczyk - 1",
-  },
-  {
-    original: "/storczyk/2.webp",
-    thumbnail: "/storczyk/2.webp",
-    loading: "lazy",
-    originalAlt: "Zdjęcie apartamentu Storczyk - 2",
-  },
-  {
-    original: "/storczyk/3.webp",
-    thumbnail: "/storczyk/3.webp",
-    loading: "lazy",
-    originalAlt: "Zdjęcie apartamentu Storczyk - 3",
-  },
-  {
-    original: "/storczyk/4.webp",
-    thumbnail: "/storczyk/4.webp",
-    loading: "lazy",
-    originalAlt: "Zdjęcie apartamentu Storczyk - 4",
-  },
-  {
-    original: "/storczyk/5.webp",
-    thumbnail: "/storczyk/5.webp",
-    loading: "lazy",
-    originalAlt: "Zdjęcie apartamentu Storczyk - 5",
-  },
-  {
-    original: "/storczyk/6.webp",
-    thumbnail: "/storczyk/6.webp",
-    loading: "lazy",
-    originalAlt: "Zdjęcie apartamentu Storczyk - 6",
-  },
-  {
-    original: "/storczyk/7.webp",
-    thumbnail: "/storczyk/7.webp",
-    loading: "lazy",
-    originalAlt: "Zdjęcie apartamentu Storczyk - 7",
-  },
-  {
-    original: "/storczyk/8.webp",
-    thumbnail: "/storczyk/8.webp",
-    loading: "lazy",
-    originalAlt: "Zdjęcie apartamentu Storczyk - 8",
-  },
-  {
-    original: "/storczyk/9.webp",
-    thumbnail: "/storczyk/9.webp",
-    loading: "lazy",
-    originalAlt: "Zdjęcie apartamentu Storczyk - 9",
-  },
-  {
-    original: "/storczyk/10.webp",
-    thumbnail: "/storczyk/10.webp",
-    loading: "lazy",
-    originalAlt: "Zdjęcie apartamentu Storczyk - 10",
-  },
-  {
-    original: "/storczyk/11.webp",
-    thumbnail: "/storczyk/11.webp",
-    loading: "lazy",
-    originalAlt: "Zdjęcie apartamentu Storczyk - 11",
-  },
-  {
-    original: "/storczyk/12.webp",
-    thumbnail: "/storczyk/12.webp",
-    loading: "lazy",
-    originalAlt: "Zdjęcie apartamentu Storczyk - 12",
-  },
-  {
-    original: "/storczyk/13.webp",
-    thumbnail: "/storczyk/13.webp",
-    loading: "lazy",
-    originalAlt: "Zdjęcie apartamentu Storczyk - 13",
-  },
-  {
-    original: "/storczyk/14.webp",
-    thumbnail: "/storczyk/14.webp",
-    loading: "lazy",
-    originalAlt: "Zdjęcie apartamentu Storczyk - 14",
-  },
-  {
-    original: "/storczyk/15.webp",
-    thumbnail: "/storczyk/15.webp",
-    loading: "lazy",
-    originalAlt: "Zdjęcie apartamentu Storczyk - 15",
-  },
-];
+const photoDetails = [
+  [
+    "/storczyk/1.webp",
+    1400,
+    961,
+    "Apartament Storczyk w Krynicy Zdroju - pokój dzienny",
+  ],
+  [
+    "/storczyk/2.webp",
+    1400,
+    1050,
+    "Apartament Storczyk w Krynicy Zdroju - część wypoczynkowa",
+  ],
+  [
+    "/storczyk/3.webp",
+    1400,
+    1050,
+    "Apartament Storczyk w Krynicy Zdroju - sofa i telewizor",
+  ],
+  [
+    "/storczyk/4.webp",
+    1400,
+    1050,
+    "Apartament Storczyk w Krynicy Zdroju - studio z aneksem kuchennym",
+  ],
+  [
+    "/storczyk/5.webp",
+    1400,
+    1050,
+    "Apartament Storczyk w Krynicy Zdroju - wyposażony aneks kuchenny",
+  ],
+  [
+    "/storczyk/6.webp",
+    1400,
+    1050,
+    "Apartament Storczyk w Krynicy Zdroju - strefa spania",
+  ],
+  [
+    "/storczyk/7.webp",
+    1400,
+    1050,
+    "Apartament Storczyk w Krynicy Zdroju - widok pokoju",
+  ],
+  [
+    "/storczyk/8.webp",
+    1050,
+    1400,
+    "Apartament Storczyk w Krynicy Zdroju - łazienka z prysznicem",
+  ],
+  [
+    "/storczyk/9.webp",
+    1050,
+    1400,
+    "Apartament Storczyk w Krynicy Zdroju - wyposażenie łazienki",
+  ],
+  [
+    "/storczyk/10.webp",
+    1400,
+    1050,
+    "Apartament Storczyk w Krynicy Zdroju - balkon",
+  ],
+  [
+    "/storczyk/11.webp",
+    1050,
+    1400,
+    "Apartament Storczyk w Krynicy Zdroju - przedpokój",
+  ],
+  [
+    "/storczyk/12.webp",
+    1050,
+    1400,
+    "Apartament Storczyk w Krynicy Zdroju - szafa i przechowywanie",
+  ],
+  [
+    "/storczyk/13.webp",
+    1050,
+    1400,
+    "Apartament Storczyk w Krynicy Zdroju - wejście do apartamentu",
+  ],
+  [
+    "/storczyk/14.webp",
+    1400,
+    1050,
+    "Apartament Storczyk w Krynicy Zdroju - detal wyposażenia",
+  ],
+  [
+    "/storczyk/15.webp",
+    1400,
+    1050,
+    "Apartament Storczyk w Krynicy Zdroju - dodatkowy widok pokoju",
+  ],
+] as const;
+
+const photos = photoDetails.map(
+  ([original, originalWidth, originalHeight, alt]) => ({
+    original,
+    thumbnail: original,
+    loading: "lazy" as const,
+    thumbnailLoading: "lazy" as const,
+    originalWidth,
+    originalHeight,
+    originalAlt: alt,
+    thumbnailAlt: alt,
+  }),
+);
 
 const amenities = [
   {

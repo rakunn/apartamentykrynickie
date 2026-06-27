@@ -1,0 +1,20 @@
+# Apartamenty Krynickie
+
+Apartamenty Krynickie to strona dwóch całorocznych apartamentów na wynajem w centrum Krynicy Zdroju przy ulicy Cichej.
+
+## Important URLs
+
+- Strona główna: https://apartamentykrynickie.pl/
+- Apartament Magnolia: https://apartamentykrynickie.pl/magnolia
+- Apartament Storczyk: https://apartamentykrynickie.pl/storczyk
+- Kontakt: https://apartamentykrynickie.pl/#contact
+
+## Apartments
+
+- Apartament Magnolia: dwupokojowy apartament 41 m² dla 4-5 osób, ul. Cicha 14/8B1, parking, winda, balkon, internet, klimatyzacja i pełne wyposażenie.
+- Apartament Storczyk: jednopokojowy apartament 28 m² dla 2-4 osób, ul. Cicha 18/5B, parking, winda, internet i w pełni wyposażony aneks kuchenny.
+
+## Contact
+
+- Telefon: +48 502 512 418, +48 600 006 550
+- Email: lawenda.krynicka@gmail.com

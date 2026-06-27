@@ -1,4 +1,5 @@
-import { Gallery } from "@/app/components/Gallery";
+import type { ReactImageGalleryItem } from "react-image-gallery";
+import { LazyGallery } from "@/app/components/LazyGallery";
 import Amenities from "@/app/components/Amenities";
 import { Address } from "@/app/components/Address";
 import { LineDecoration } from "@/app/components/LineDecoration";
@@ -6,7 +7,7 @@ import { LineDecoration } from "@/app/components/LineDecoration";
 interface ApartamentLayoutProps {
   htmlId: string;
   descriptionLines: string[];
-  galleryImages: { original: string; thumbnail: string }[];
+  galleryImages: readonly ReactImageGalleryItem[];
   title: string;
   amenitiesItems: { label: string; Icon: React.ReactNode }[];
   addressLines: string[];
@@ -36,7 +37,7 @@ export const ApartamentLayout = ({
             ))}
           </div>
           <div className="flex-[3_0_0] pt-8 md:pt-0">
-            <Gallery images={galleryImages} />
+            <LazyGallery images={galleryImages} />
           </div>
         </div>
         <div className="md:flex gap-12 items-stretch">
